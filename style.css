@@ -82,6 +82,7 @@ p {
 	font-size: 35px;
 	align: center;
 }
+
 /* Padding */
 .py-1 { 
 	padding: 10px 0; 
@@ -197,6 +198,9 @@ p {
 	color: #000000;
 }
 
+.box-2 a{
+	color: #ffffff
+}
 /* about info */
 #about-info .info-right{
 	float: right;
@@ -218,6 +222,26 @@ p {
 	width: 50%;
 	min-height: 100%;
 }
+
+.about-heading{
+	padding-top: 20px;	
+}
+
+/* About */
+table, th, td {
+				border: 1 px solid black;
+				border-collapse: collapse;
+			}
+			th, td {
+				padding-top: 10px;
+				padding-bottom: 20px;
+				padding-left: 30px;
+				padding-right: 40px;
+			}
+			tr:nth-child(even) 
+			{
+				background-color: #FFFF00;
+			}
 
 /* comments */
 #comments {
@@ -247,6 +271,32 @@ p {
 	border-radius: 50%;
 }
 
+/* contact-form */
+#contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+#contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contact-form input, 
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px #ddd solid;
+}
+
+#contact-form textarea {
+  height: 200px;
+}
+
+#contact-form input:focus, 
+#contact-form textarea:focus {
+  outline: none;
+  border-color: #FFFF00;
+}
 
 /* footer */
 #main-footer {
